@@ -1,0 +1,11 @@
+Keep a camera perched up in the Crows Nest to look out for you. 
+
+Adjust the constants in the start of the python script to fit the needs of the room
+
+CAMERA - select from multiple cameras (0 default)
+FRAME_RATES - array [not recording loop wait time, recording loop wait time]
+PIXELS - All the pixels in the video (default 640*480)
+DETECT_PERCENT - Sensitivity of motion detection, lower the more sentitive 
+NO_MOTION_TIME_THRESH = Loops to wait after last motion is seen before stopping recording
+WRITE_FPS - FPS to write to file at, too high and the video will look fast forwarded
+REC_AFTER - Amount of frames to pre-record with a .8s wait in between each
