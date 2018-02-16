@@ -30,6 +30,7 @@ def detectMotion(img):
     white = cv.countNonZero(img)
     return white/PIXELS > DETECT_PERCENT
 
+
 userGone = 1
 motionDetected = 0
 noMotion = 0
